@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal CV website for Ruvimbo: profile, skills, education, work experience, and contact details." />
-  <title>Ruvimbo | Personal CV</title>
+  <meta name="description" content="Personal CV website for Lydia Ncube: profile, skills, education, work experience, and contact details." />
+  <title>Lydia Ncube | Personal CV</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
@@ -12,7 +12,6 @@
 </head>
 <body>
   <header class="hero" id="top">
-    <div class="hero__overlay"></div>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -22,119 +21,111 @@
     </nav>
 
     <section class="hero__content">
-      <p class="eyebrow">Personal CV</p>
-      <h1>Ruvimbo</h1>
-      <p class="hero__subtitle">Entry-level professional with a creative mindset, strong communication, and a drive to keep learning.</p>
-      <div class="hero__actions">
-        <a class="btn btn--primary" href="#contact">Contact Me</a>
-        <a class="btn btn--ghost" href="#experience">View Experience</a>
+      <div class="hero__avatar">
+        <img src="profile.jpg" alt="Portrait of Lydia Ncube" />
+      </div>
+      <div class="hero__title-block">
+        <h1>Lydia Ncube</h1>
+        <p class="hero__subtitle">Entry-level software engineer combining a strong academic foundation with a passion for mastering emerging technologies to build clean, impactful code.</p>
       </div>
     </section>
   </header>
 
   <main class="layout">
+    <section class="card card--side" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Details</h2>
+      <ul class="contact-list">
+        <li><span style="display:inline-block;width:1em;vertical-align:middle;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="#363a42"><circle cx="12" cy="8" r="4"/><path d="M12 14c-4.418 0-8 1.79-8 4v2h16v-2c0-2.21-3.582-4-8-4z"/></svg>
+        </span> <strong>Name:</strong> Lydia Ncube</li>
+        <li><span style="display:inline-block;width:1em;vertical-align:middle;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="#363a42"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
+        </span> <strong>Phone:</strong> <a href="tel:+27837994018">+27 83 799 4018</a></li>
+        <li><span style="display:inline-block;width:1em;vertical-align:middle;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="#363a42"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.83l7.29 6.36a1 1 0 001.42 0L20 8.83V18H4z"/></svg>
+        </span> <strong>Email:</strong> <a href="mailto:lrncube222@gmail.com">lrncube222@gmail.com</a></li>
+        <li><span style="display:inline-block;width:1em;vertical-align:middle;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="#363a42"><path d="M12 .5C5.648.5.5 5.648.5 12c0 5.084 3.292 9.387 7.862 10.89.575.106.785-.25.785-.555 0-.274-.01-1.002-.015-1.966-3.197.695-3.872-1.542-3.872-1.542-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.08-.7.08-.7 1.155.081 1.763 1.187 1.763 1.187 1.026 1.758 2.693 1.25 3.35.956.104-.743.402-1.25.73-1.538-2.553-.29-5.238-1.277-5.238-5.686 0-1.256.448-2.283 1.184-3.088-.119-.29-.513-1.457.112-3.04 0 0 .966-.31 3.17 1.18a10.98 10.98 0 012.886-.388c.98.004 1.97.132 2.886.388 2.203-1.49 3.168-1.18 3.168-1.18.626 1.583.232 2.75.114 3.04.738.805 1.184 1.832 1.184 3.088 0 4.42-2.688 5.393-5.25 5.678.414.357.782 1.062.782 2.142 0 1.547-.014 2.797-.014 3.178 0 .308.208.665.79.552C20.71 21.384 24 17.083 24 12c0-6.352-5.148-11.5-12-11.5z"/></svg>
+        </span> <strong>GitHub:</strong> <a href="https://github.com/Lydia1991" target="_blank" rel="noreferrer">github.com/Lydia1991</a></li>
+      </ul>
+    </section>
+
     <section class="card card--about" id="about" aria-labelledby="about-title">
       <h2 id="about-title">About Me</h2>
       <p>
-        I am a motivated and curious early-career professional who enjoys solving real problems, working with people, and improving the quality of every task I take on.
-        My experience includes academic projects, practical assignments, and collaborative activities that helped me build discipline, responsibility, and confidence.
+        I am an entry-level Software Engineer focused on building practical, user-friendly applications with clean and maintainable code. I am especially interested in web development and problem solving, and I am committed to continuous learning so I can grow with the fast-changing tech industry.
       </p>
       <p>
-        I am passionate about technology, communication, and lifelong growth. I value consistency, integrity, and continuous improvement, and I enjoy opportunities where I can learn quickly and contribute meaningfully.
-      </p>
-      <p>
-        My goal is to grow into a trusted professional known for quality work, reliability, and positive impact. I am currently focused on building stronger technical skills while staying grounded in teamwork and service.
+        Through bootcamp training and personal projects, I have applied Python, SQL, HTML, CSS, and Django while strengthening debugging, testing, version control, and teamwork skills. My goal is to contribute to high-quality products, collaborate effectively, and keep improving through real-world challenges.
       </p>
     </section>
 
     <section class="card" id="skills" aria-labelledby="skills-title">
-      <h2 id="skills-title">Skills and Competencies</h2>
+      <h2 id="skills-title">Skills</h2>
       <ul class="chips">
-        <li>Communication</li>
-        <li>Team Collaboration</li>
+        <li><img src="icons/html.png" alt="HTML" class="skill-icon" title="HTML"></li>
+        <li><img src="icons/css.png" alt="CSS" class="skill-icon" title="CSS"></li>
+        <li><img src="icons/github.png" alt="GitHub" class="skill-icon" title="GitHub"></li>
+        <li><img src="icons/python.png" alt="Python" class="skill-icon" title="Python"></li>
+        <li><img src="icons/django.png" alt="Django" class="skill-icon" title="Django"></li>
+        <li><img src="icons/sql.png" alt="SQL" class="skill-icon" title="SQL"></li>
+        <li>Web Designing</li>
+        <li>Application Development</li>
+        <li>Testing</li>
+        <li>Agile Methodology</li>
         <li>Problem Solving</li>
-        <li>Time Management</li>
-        <li>Adaptability</li>
-        <li>Attention to Detail</li>
-        <li>HTML and CSS</li>
-        <li>Research and Reporting</li>
-        <li>Microsoft Office</li>
-        <li>Customer Service</li>
+        <li>Debugging</li>
+        <li>Team Collaboration</li>
+        <li>Communication</li>
       </ul>
     </section>
+
 
     <section class="card" id="education" aria-labelledby="education-title">
       <h2 id="education-title">Education</h2>
       <article class="timeline-item">
-        <h3>Qualification Name</h3>
-        <p class="meta">Institution Name | 2021 - 2024</p>
+        <h3>Software Engineering Bootcamp & Certification</h3>
+        <p class="meta">HyperionDev Stellenbosch Bootcamp | 2025 - 2026</p>
         <p>
-          Add your actual degree, diploma, or certificate details here. Include major subjects, key achievements, and any notable academic projects.
-        </p>
-      </article>
-      <article class="timeline-item">
-        <h3>Additional Training / Certification</h3>
-        <p class="meta">Platform or Provider | 2025</p>
-        <p>
-          Add short courses, workshops, online programs, or certifications that strengthen your CV profile.
+          Completed intensive training in Python, SQL, HTML, CSS, Django, Data Structures and Algorithms, Web Development, Databases, Software Engineering, and Object-Oriented Programming. Gained both theoretical knowledge and practical experience through hands-on projects and collaborative work.
         </p>
       </article>
     </section>
 
     <section class="card" id="experience" aria-labelledby="experience-title">
-      <h2 id="experience-title">Work Experience</h2>
+      <h2 id="experience-title">Practical Experience</h2>
       <article class="timeline-item">
-        <h3>Role Title</h3>
-        <p class="meta">Company or Organization | Start Date - End Date</p>
+        <h3>Bootcamp and Personal Projects</h3>
+        <p class="meta">HyperionDev Stellenbosch Bootcamp and Self-Directed | 2025 - Present</p>
         <ul>
-          <li>Describe your responsibilities clearly.</li>
-          <li>Mention at least one measurable contribution or improvement.</li>
-          <li>Highlight communication, initiative, and reliability.</li>
+          <li>Built software projects including Sticky Notes Application, News Application, and Task Manager Application.</li>
+          <li>Applied Python, SQL, HTML, CSS, and Django to create functional, user-focused solutions.</li>
+          <li>Used Git and GitHub for version control, project tracking, and code sharing.</li>
         </ul>
       </article>
       <article class="timeline-item">
-        <h3>Internship / Volunteer / Project Role</h3>
-        <p class="meta">Organization or Project | Start Date - End Date</p>
+        <h3>Team Collaboration and Agile Practice</h3>
+        <p class="meta">Training Environment | Ongoing</p>
         <ul>
-          <li>Include practical tasks and ownership areas.</li>
-          <li>Show how this role prepared you for professional work.</li>
-          <li>Emphasize impact and lessons learned.</li>
+          <li>Worked in collaborative project settings with regular feedback and iterative improvements.</li>
+          <li>Practiced debugging, testing, and improving code quality through structured reviews.</li>
+          <li>Developed communication and teamwork skills through group coding activities and standups.</li>
         </ul>
       </article>
+      <section class="card card--side" id="writing" aria-labelledby="writing-title">
+        <h2 id="writing-title">Projects</h2>
+        <ul class="links-list">
+          <li><a href="https://github.com/Lydia1991" target="_blank" rel="noreferrer">Sticky Notes Application</a></li>
+          <li><a href="https://github.com/Lydia1991" target="_blank" rel="noreferrer">News Application</a></li>
+          <li><a href="https://github.com/Lydia1991" target="_blank" rel="noreferrer">Task Manager Application</a></li>
+          <li><a href="https://github.com/Lydia1991" target="_blank" rel="noreferrer">E-Commerce Application</a></li>
+        </ul>
+      </section>
     </section>
 
-    <section class="card card--side" id="profile-image" aria-labelledby="profile-title">
-      <h2 id="profile-title">Profile Photo</h2>
-      <figure class="profile-photo" role="img" aria-label="Placeholder profile image">
-        <span>RN</span>
-      </figure>
-      <p class="small-note">Optional: Replace this placeholder with your professional photo.</p>
-    </section>
-
-    <section class="card card--side" id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact Details</h2>
-      <ul class="contact-list">
-        <li><strong>Name:</strong> Ruvimbo</li>
-        <li><strong>Phone:</strong> <a href="tel:+263771234567">+263 77 123 4567</a></li>
-        <li><strong>Email:</strong> <a href="mailto:ruvimbo@example.com">ruvimbo@example.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noreferrer">linkedin.com/in/your-linkedin-profile</a></li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank" rel="noreferrer">github.com/your-username</a></li>
-      </ul>
-    </section>
-
-    <section class="card card--side" id="writing" aria-labelledby="writing-title">
-      <h2 id="writing-title">Articles and Projects</h2>
-      <ul class="links-list">
-        <li><a href="https://medium.com/@your-handle" target="_blank" rel="noreferrer">My Blog Profile</a></li>
-        <li><a href="https://www.linkedin.com/in/your-linkedin-profile/details/projects/" target="_blank" rel="noreferrer">LinkedIn Projects</a></li>
-        <li><a href="https://github.com/your-username" target="_blank" rel="noreferrer">Featured GitHub Work</a></li>
-      </ul>
-      <p class="small-note">Optional: Replace these with your real articles or portfolio links.</p>
-    </section>
   </main>
 
   <footer class="footer">
-    <p>Designed and built by Ruvimbo.</p>
     <a href="#top">Back to top</a>
   </footer>
 </body>
